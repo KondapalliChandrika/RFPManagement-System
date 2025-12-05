@@ -136,7 +136,7 @@ IMAP_PASS=your-app-password
 IMAP_TLS=true
 
 # Email polling interval (minutes)
-EMAIL_POLL_INTERVAL=2
+EMAIL_POLL_INTERVAL=10 //sample one
 ```
 
 ### 4. Run the Application
