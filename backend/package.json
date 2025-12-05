@@ -1,0 +1,35 @@
+{
+  "name": "rfp-management-backend",
+  "version": "1.0.0",
+  "description": "AI-Powered RFP Management System Backend",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "dev": "nodemon src/server.js",
+    "init-db": "node src/config/initDb.js"
+  },
+  "keywords": [
+    "rfp",
+    "procurement",
+    "ai",
+    "email"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "imap": "^0.8.19",
+    "joi": "^17.11.0",
+    "mailparser": "^3.6.5",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.7",
+    "openai": "^4.20.1",
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
