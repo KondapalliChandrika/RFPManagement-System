@@ -87,7 +87,7 @@ RFP/
 ```bash
 git clone https://github.com/KondapalliChandrika/RFPManagement-System.git
 
-cd /RFP
+cd RFP
 
 # Install backend dependencies
 cd backend
