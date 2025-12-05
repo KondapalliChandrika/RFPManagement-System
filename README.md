@@ -85,7 +85,7 @@ RFP/
 ### 1. Clone and Install
 
 ```bash
-git clone 
+git clone https://github.com/KondapalliChandrika/RFPManagement-System.git
 
 cd /RFP
 
